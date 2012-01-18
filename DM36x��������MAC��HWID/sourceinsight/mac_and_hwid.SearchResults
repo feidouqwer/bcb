@@ -1,0 +1,8 @@
+---- responseNum Matches (7 in 1 files) ----
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):	responseNum = 0;
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):	responseNum = 0;
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):	responseNum++;
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):	this->ProgressBar1->Position = responseNum * 100 / clientDevNum;
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):	str.printf("已经成功写入设备: %d", responseNum);
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):	if (responseNum == clientDevNum)
+MainFrm.cpp (f:\bcb\dm36x批量设置mac和hwid):			responseNum--;
